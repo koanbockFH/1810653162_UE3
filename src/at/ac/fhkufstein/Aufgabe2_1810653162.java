@@ -29,7 +29,11 @@ public class Aufgabe2_1810653162
         }
         else
         {
+            System.err.println("String hat zu wenig Zeichen"); //lt. Lektor hinschreiben damit die Aufgabe nach Stoff
+            // Fortschritt geht
+            // geht
             throw new Exception("String hat zu wenig Zeichen");
+
         }
     }
 }
